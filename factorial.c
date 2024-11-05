@@ -1,13 +1,17 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+int factorial(int);
+void main()
 {
-    int n,i,fact=1;
+    int n,f;
     printf("enter any number = ");
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        fact = fact*i;
-    }
-    printf("factorial = %d",fact);
-    return 0;
+    f = factorial(n);
+    printf("the factorial of %d is %d",n,f);
+}
+int factorial(int num)
+{
+    if(num==1)
+        return 1;
+    else
+        return num*factorial(num-1);
 }

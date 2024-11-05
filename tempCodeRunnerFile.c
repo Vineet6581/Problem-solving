@@ -1,1 +1,1 @@
-i='A';
+ // fflush(stdin);
