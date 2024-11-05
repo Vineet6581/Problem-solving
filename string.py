@@ -1,0 +1,10 @@
+s="I LIKE PYTHON" 
+print(s[-10:-2])
+print(s[2])
+print(s[-11])
+print(s[7])
+print(s[-6])
+print(s[2:6])
+print(s[ : ])
+print(s[ : :-1])
+print(s[2:6:-1])
