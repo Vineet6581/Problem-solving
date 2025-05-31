@@ -1,0 +1,26 @@
+A,B=3,4
+Txt="@"
+print(2*Txt*3)
+#STRINGnotation
+A,B="2",4
+print((A+Txt)*B)
+#BOARDMASS
+A,B=2,3
+C=4
+print(A*B+C)
+#MULT
+A,B=10,5.0
+C=A*B
+print(C)
+#DIV
+A,B=1,2
+C=A/B
+print(C)
+#FLOOR,INT DIV
+A,B=1.5,3
+C=A//B
+print(C,A/B)
+D,B=9,-4
+print(D//B)
+print(D%B)
+print(B%D)
