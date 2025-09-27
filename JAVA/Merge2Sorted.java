@@ -22,12 +22,14 @@ public class Merge2Sorted {
         int i = 0;
         while (a1 < n && a2 < m) {
             if (arr1[a1] > arr2[a2]) {
-                arr[i++] = arr2[a2];
+                arr[i] = arr2[a2];
+
                 a2++;
             } else{
-                arr[i++] = arr1[a1];
+                arr[i] = arr1[a1];
                 a1++;
             }
+            i++;
 //            else {
 //                arr[i++] = arr1[a1];
 //                a1++;
